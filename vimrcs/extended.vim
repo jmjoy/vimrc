@@ -22,7 +22,6 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-map <leader>e :e! ~/.vim/my_configs.vim<cr>
 autocmd! bufwritepost vimrc source ~/.vim/my_configs.vim
 
 

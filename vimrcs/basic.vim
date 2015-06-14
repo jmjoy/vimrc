@@ -61,11 +61,10 @@ set autoread
 " Map <Space> to copy
 noremap <space> "
 noremap <space>p "+
-unmap "
 
 " With a map leader it's possible to do extra key combinations
-let mapleader = '"'
-let g:mapleader = '"'
+" let mapleader = '"'
+" let g:mapleader = '"'
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
