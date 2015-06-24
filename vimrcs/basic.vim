@@ -59,12 +59,12 @@ filetype indent on
 set autoread
 
 " Map <Space> to copy
-noremap <space> "
-noremap <space>p "+
+map <space> "
+map "p "+
 
 " With a map leader it's possible to do extra key combinations
-" let mapleader = '"'
-" let g:mapleader = '"'
+let mapleader=','
+let g:mapleader=','
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -193,13 +193,9 @@ set smarttab
 set shiftwidth=4
 set tabstop=4
 
-" nowrap
-set nowrap
-
 set ai "Auto indent
 set si "Smart indent
-set wrap "Wrap lines
-
+set nowrap "NoWrap lines
 
 """"""""""""""""""""""""""""""
 " => Visual mode related

@@ -42,17 +42,15 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
-map <Leader>w <Plug>(easymotion-w)
-map <Leader>b <Plug>(easymotion-b)
-map <Leader>s <Plug>(easymotion-s)
+map <Leader>l <Plug>(easymotion-w)
+map <Leader>h <Plug>(easymotion-b)
 
 if has('gui_running')
     set winaltkeys=no
     map <M-j> <Plug>(easymotion-j)
     map <M-k> <Plug>(easymotion-k)
-    map <M-w> <Plug>(easymotion-w)
-    map <M-b> <Plug>(easymotion-b)
-    map <M-s> <Plug>(easymotion-s)
+    map <M-l> <Plug>(easymotion-w)
+    map <M-h> <Plug>(easymotion-b)
 endif
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
