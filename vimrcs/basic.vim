@@ -58,7 +58,7 @@ filetype indent on
 " Set to auto read when a file is changed from the outside
 set autoread
 
-" Map <Space> to copy
+" Map p to access system clipboard
 map "p "+
 
 " With a map leader it's possible to do extra key combinations
