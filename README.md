@@ -4,7 +4,7 @@
 
 # Install
 
-sh < (curl https://raw.githubusercontent.com/jmjoy/vimrc/master/install_vimrc.sh)
+  curl https://raw.githubusercontent.com/jmjoy/vimrc/master/install_vimrc.sh | sh
 
 # 想法
 
