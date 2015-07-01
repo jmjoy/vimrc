@@ -8,7 +8,7 @@ sh < (curl https://raw.githubusercontent.com/jmjoy/vimrc/master/install_vimrc.sh
 
 # 想法
 
-* 将`jk`映射为<Esc>，这个太重要了，没了它我就不会用VIM了
+* 将`jk`映射为 `<Esc>`，这个太重要了，没了它我就不会用VIM了
 
 * 用 `p` 访问系统寄存器 `+`
 
