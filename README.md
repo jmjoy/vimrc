@@ -4,7 +4,9 @@
 
 # Install
 
-  curl https://raw.githubusercontent.com/jmjoy/vimrc/master/install_vimrc.sh | sh
+```bash
+    curl https://raw.githubusercontent.com/jmjoy/vimrc/master/install_vimrc.sh | sh
+```
 
 # 想法
 
@@ -16,6 +18,6 @@
 
 * 将 `H` `J` `K` `L` 作为Easy-Motion插件的方向键，因为这个确实太常用了
 
-* 将 `<C-w>` `<C-e>` 作为标签页移动方向键
+* 将 `W` `E` 作为标签页移动方向键
 
-* `J` 和 `K` 暂时分别映射为 `\` 和 `?`
+* `J` 和 `K` 的功能暂时用 `\` 和 `?` 代替
