@@ -59,12 +59,15 @@ filetype indent on
 set autoread
 
 " Map <Space> to copy
-map <space> "
 map "p "+
 
 " With a map leader it's possible to do extra key combinations
 let mapleader=','
 let g:mapleader=','
+
+" Replace J and K, for easymotion used
+map \ J
+map ? K
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -235,8 +238,8 @@ map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove
 map <leader>t<leader> :tabnext
 
-map H :tabprevious<cr>
-map L :tabnext<cr>
+map W :tabprevious<cr>
+map E :tabnext<cr>
 
 " Let 'tl' toggle between this and the last accessed tab
 let g:lasttab = 1
