@@ -66,8 +66,8 @@ let mapleader=','
 let g:mapleader=','
 
 " Replace J and K, for easymotion used
-map \ J
-map ? K
+noremap \ J
+noremap ? K
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
