@@ -59,7 +59,8 @@ filetype indent on
 set autoread
 
 " Map p to access system clipboard
-map "p "+
+noremap "p "+
+noremap "P "+
 
 " With a map leader it's possible to do extra key combinations
 let mapleader=','
