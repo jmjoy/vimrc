@@ -70,6 +70,9 @@ let g:mapleader=','
 noremap \ J
 noremap ? K
 
+" Omni completion
+inoremap <C-o> <C-x><C-o>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -165,6 +168,8 @@ if has("gui_running")
 
     set background=light
 else
+
+    " now I like dark rather than light
     set background=dark
 endif
 

@@ -40,7 +40,7 @@ let g:airline_theme="luna"
 " => Syntastic (syntax checker)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
-
+let g:syntastic_go_checkers = []
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => tagbar
