@@ -46,7 +46,6 @@
 " Mine
 imap jk <Esc>
 set number
-set cursorline
 
 " Sets how many lines of history VIM has to remember
 set history=700
@@ -154,7 +153,7 @@ set foldcolumn=1
 syntax enable
 
 try
-    colorscheme solarized
+    colorscheme torte
 catch
 endtry
 
@@ -166,12 +165,7 @@ if has("gui_running")
     set t_Co=256
     set guitablabel=%M\ %t
 
-    set background=light
 else
-
-    " now I like dark rather than light
-    set background=dark
-endif
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8

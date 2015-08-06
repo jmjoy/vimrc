@@ -43,6 +43,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'ervandew/supertab'
 Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'joonty/vdebug.git'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
