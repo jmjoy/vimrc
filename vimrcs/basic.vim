@@ -58,12 +58,12 @@ filetype indent on
 set autoread
 
 " Map p to access system clipboard
-noremap "p "+
-noremap "P "+
+" noremap "p "+
+" noremap "P "+
 
 " With a map leader it's possible to do extra key combinations
-let mapleader=','
-let g:mapleader=','
+let mapleader=' '
+let g:mapleader=' '
 
 " Replace J and K, for easymotion used
 noremap \ J
@@ -71,6 +71,11 @@ noremap ? K
 
 " Omni completion
 inoremap <C-o> <C-x><C-o>
+
+" access system clipboard
+map <leader>d "+d
+map <leader>y "+y
+map <leader>p "+p
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -326,7 +331,7 @@ vnoremap <silent> <leader>r :call VisualSelection('replace', '')<CR>
 map <leader>cc :botright cope<cr>
 map <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg
 map <leader>n :cn<cr>
-map <leader>p :cp<cr>
+" map <leader>p :cp<cr>
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -355,7 +360,7 @@ map <leader>q :e ~/buffer<cr>
 map <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
-map <leader>pp :setlocal paste!<cr>
+" map <leader>pp :setlocal paste!<cr>
 
 
 
