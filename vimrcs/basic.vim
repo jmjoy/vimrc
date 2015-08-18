@@ -76,6 +76,9 @@ inoremap <C-o> <C-x><C-o>
 map <leader>d "+d
 map <leader>y "+y
 map <leader>p "+p
+map <leader>D "+D
+map <leader>Y "+Y
+map <leader>P "+P
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
