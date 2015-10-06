@@ -1,3 +1,5 @@
+git clone https://github.com/jmjoy/vimrc.git ~/.vim
+mkdir -p ~/.vim/bundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 echo 'set runtimepath+=~/.vim
