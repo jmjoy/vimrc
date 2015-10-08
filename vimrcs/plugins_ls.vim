@@ -46,7 +46,7 @@ Plugin 'arnaud-lb/vim-php-namespace'
 Plugin 'joonty/vdebug.git'
 Plugin 'DoxygenToolkit.vim'
 Plugin 'neovimhaskell/haskell-vim'
-
+Plugin 'eagletmt/neco-ghc'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
