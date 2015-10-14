@@ -1,6 +1,6 @@
 # Notice!
 
-我把大神的vimrc改成我喜欢的形状！
+修改自 https://github.com/amix/vimrc
 
 # Install
 
@@ -8,9 +8,9 @@
     curl https://raw.githubusercontent.com/jmjoy/vimrc/master/install_vimrc.sh | sh
 ```
 
-# 想法
+# Basic
 
-* 将`jk`映射为 `<Esc>`，这个太重要了，没了它我就不会用VIM了
+* 将`jk`映射为 `<Esc>`，这个太重要了，兼容输入法中英文切换 （`<Shift>`）
 
 * 映射`<Space>`到`<Leader>`，`<Leader>y` `<Leader>d` `<Leader>p` 访问系统寄存器
 
