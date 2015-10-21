@@ -18,11 +18,13 @@ let NERDTreeShowHidden=1
 let g:NERDTreeMapJumpFirstChild=''
 let g:NERDTreeMapJumpLastChild=''
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " =>  vim-nerdtree-tabs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <C-e> <plug>NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_gui_startup=0
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => surround.vim config
@@ -44,6 +46,7 @@ let g:airline_theme="luna"
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 " let g:syntastic_go_checkers = []
 let g:syntastic_go_go_build_args = "-o /dev/null"
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => tagbar
@@ -103,6 +106,7 @@ xmap <C-k>     <Plug>(neosnippet_expand_target)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:SuperTabDefaultCompletionType = "<c-x><c-o>"
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-go
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -114,6 +118,7 @@ let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 let g:go_doc_keywordprg_enabled=0
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => easymotion
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -121,6 +126,7 @@ map J <Plug>(easymotion-j)
 map K <Plug>(easymotion-k)
 map L <Plug>(easymotion-w)
 map H <Plug>(easymotion-b)
+
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => haskell-vim
@@ -132,9 +138,11 @@ let g:haskell_enable_pattern_synonyms = 1
 let g:haskell_enable_typeroles = 1
 let g:haskell_enable_static_pointers = 1
 
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => eagletmt/neco-ghc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Disable haskell-vim omnifunc
 let g:haskellmode_completion_ghc = 0
 autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
+
