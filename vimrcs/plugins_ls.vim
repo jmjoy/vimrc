@@ -8,7 +8,6 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'tpope/vim-surround'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -48,6 +47,8 @@ Plugin 'DoxygenToolkit.vim'
 Plugin 'neovimhaskell/haskell-vim'
 Plugin 'eagletmt/neco-ghc'
 Plugin 'vim-scripts/PDV--phpDocumentor-for-Vim'
+Plugin 'artur-shaik/vim-javacomplete2'
+Plugin 'flazz/vim-colorschemes'
 
 
 " All of your Plugins must be added before the following line

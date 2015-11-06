@@ -159,3 +159,9 @@ vnoremap <C-s> :call PhpDocRange()<CR>
 " => auto-pairs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:AutoPairsMultilineClose=0
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => artur-shaik/vim-javacomplete2
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+autocmd FileType java set omnifunc=javacomplete#Complete
