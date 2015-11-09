@@ -1,0 +1,27 @@
+snippet function
+abbr public function () {}
+	${1:public }function ${2:#:FunctionName}(${3}) {
+		${4:TARGET}
+	}
+
+snippet php
+	<?php
+
+	${1:TARGET}
+
+snippet pechoh
+	<?php echo htmlspecialchars(${1}, ENT_QUOTES) ?>${0}
+
+snippet class_with_constructor
+	class ${1:#:ClassName}${2:#:extends} {
+
+		function ${3:__construct}(${4:#:argument}) {
+			${5:# code...}
+		}
+
+	}
+
+snippet dump
+options head
+  var_dump(${0:TARGET});
+  die();
