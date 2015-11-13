@@ -50,6 +50,7 @@ Plugin 'vim-scripts/PDV--phpDocumentor-for-Vim'
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'mikehaertl/yii2-apidoc-vim'
+Plugin 'kien/rainbow_parentheses.vim'
 
 
 " All of your Plugins must be added before the following line

@@ -62,3 +62,6 @@ au FileType gitcommit call setpos('.', [0, 1, 1, 0])
 au FileType scheme set tabstop=2
 au FileType scheme set shiftwidth=2
 au FileType scheme let g:AutoPairs={'(':')', '[':']', '{':'}', '"':'"', '`':'`'}
+au FileType scheme RainbowParenthesesToggle
+au FileType scheme RainbowParenthesesToggle
+au FileType scheme RainbowParenthesesToggle
