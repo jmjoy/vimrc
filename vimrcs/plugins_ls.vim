@@ -49,6 +49,7 @@ Plugin 'eagletmt/neco-ghc'
 Plugin 'vim-scripts/PDV--phpDocumentor-for-Vim'
 Plugin 'artur-shaik/vim-javacomplete2'
 Plugin 'flazz/vim-colorschemes'
+Plugin 'mikehaertl/yii2-apidoc-vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'wlangstroth/vim-racket'
 
