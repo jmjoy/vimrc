@@ -152,9 +152,9 @@ autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vim-scripts/PDV--phpDocumentor-for-Vim
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-inoremap <C-s> <ESC>:call PhpDocSingle()<CR>i 
-nnoremap <C-s> :call PhpDocSingle()<CR> 
-vnoremap <C-s> :call PhpDocRange()<CR> 
+inoremap X <ESC>:call PhpDocSingle()<CR>i 
+nnoremap X :call PhpDocSingle()<CR> 
+vnoremap X :call PhpDocRange()<CR> 
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
