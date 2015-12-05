@@ -10,7 +10,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set font
 if has('gui_running')
-    set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 11,Consolas:h11:cANSI,Monospace\ 11,Source\ Code\ Pro:h11,Bitstream\ Vera\ Sans\ Mono:h11
+    set guifont=WenQuanYi\ Micro\ Hei\ Mono\ 10,Consolas:h11:cANSI,Monospace\ 11,Source\ Code\ Pro:h11,Bitstream\ Vera\ Sans\ Mono:h11
 endif
 
 " Open MacVim in fullscreen mode

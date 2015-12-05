@@ -52,6 +52,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'mikehaertl/yii2-apidoc-vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'wlangstroth/vim-racket'
+Plugin 'andreimaxim/vim-io'
 
 
 " All of your Plugins must be added before the following line
