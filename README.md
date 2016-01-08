@@ -1,4 +1,4 @@
-# Notice!
+# Notice! 【No longer maintained】
 
 修改自 https://github.com/amix/vimrc
 
